@@ -23,8 +23,8 @@ public class CalculadoraTest {
 	public void sumaTest() {
 		
 		//Ejercicio, llamada del código que vamos a probar
-		double resultadoEjecucion = miCalculadora.suma(5, 3);
-		double resultadoEsperado = 8;
+		double resultadoEjecucion = miCalculadora.suma(4, 3);
+		double resultadoEsperado = 7;
 		
 		//Verificación, comparar resultadoEjecucion con resultadoEsperado
 		assertThat(resultadoEjecucion, is(resultadoEsperado));
@@ -34,7 +34,7 @@ public class CalculadoraTest {
 	public void restaTest() {
 		
 		//Ejercicio, llamada del código que vamos a probar
-		double resultadoEjecucion = miCalculadora.resta(10, 5);
+		double resultadoEjecucion = miCalculadora.resta(7, 2);
 		double resultadoEsperado = 5;
 		
 		//Verificación, comparar resultadoEjecucion con resultadoEsperado
@@ -45,7 +45,7 @@ public class CalculadoraTest {
 	public void divisionPositivoTest() {
 		
 		//Ejercicio, llamada del código que vamos a probar
-		double resultadoEjecucion = miCalculadora.division(10, 5);
+		double resultadoEjecucion = miCalculadora.division(6, 3);
 		double resultadoEsperado = 2;
 		
 		//Verificación, comparar resultadoEjecucion con resultadoEsperado
@@ -56,7 +56,7 @@ public class CalculadoraTest {
 	public void divisionCeroTest() {
 		
 		//Ejercicio, llamada del código que vamos a probar
-		double resultadoEjecucion = miCalculadora.division(10, 0);
+		double resultadoEjecucion = miCalculadora.division(9, 0);
 		double resultadoEsperado = Double.POSITIVE_INFINITY;
 		
 		//Verificación, comparar resultadoEjecucion con resultadoEsperado
@@ -67,8 +67,8 @@ public class CalculadoraTest {
 	public void multiplicacionTest() {
 		
 		//Ejercicio, llamada del código que vamos a probar
-		double resultadoEjecucion = miCalculadora.multiplicacion(10, 5);
-		double resultadoEsperado = 50;
+		double resultadoEjecucion = miCalculadora.multiplicacion(2, 8);
+		double resultadoEsperado = 16;
 		
 		//Verificación, comparar resultadoEjecucion con resultadoEsperado
 		assertThat(resultadoEjecucion, is(resultadoEsperado));
